@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 
 import requests
-
-API_KEY = "42ab5bf1da5f9f5c211d4054dfad7d03"
+import os
+API_KEY = os.getenv("TMDB_API_KEY")
 
 def fetch_poster(movie_id):
 
