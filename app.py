@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-
+import pandas as pd
 import requests
 import os
 API_KEY = os.getenv("TMDB_API_KEY")
@@ -61,7 +61,7 @@ selected_movie_name = st.selectbox(
 st.write("You selected:", selected_movie_name)
 
 if st.button("Recommend"):
-    st.balloons()
+    
 
     movie_names, movie_posters = recommend_movie(selected_movie_name)
 
