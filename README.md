@@ -81,7 +81,7 @@ Dataset → Data Cleaning → Feature Engineering → Vectorization → Cosine S
 
 Clone the repository:
 
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone 
 
 Install dependencies:
 
